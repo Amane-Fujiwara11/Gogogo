@@ -1,3 +1,11 @@
 package main
-import "fmt"
-func main() { fmt.Println("It works!") }
+
+import (
+	"fmt"
+	"time"
+)
+
+func main() {
+	fmt.Println("It works!")
+	fmt.Println(time.Now())
+}
